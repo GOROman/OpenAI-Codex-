@@ -16,3 +16,6 @@ OpenAIのCodexを試したいリポジトリ。サンプルプログラムでは
 $ gcc -std=c11 -Wall -Wextra rebel_game.c -o rebel_game
 $ ./rebel_game
 ```
+## Puyo Puyo Clone
+`puyopuyo/index.html` をブラウザで開くと、シンプルなぷよぷよ風ゲームを遊べます。
+矢印キーで操作してください。
