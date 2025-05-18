@@ -7,3 +7,7 @@ OpenAIのCodexを試したいリポジトリ。サンプルプログラムでは
 ## Japanese Word Markov Chain Example
 `word_markov_chain.c` は指定された単語群からマルコフ連鎖を構成し、ランダムに文を生成します。
 コンパイルして実行すると、たとえば「あなたのメロンを食べます」のような文章が表示されます。
+
+## Puyo Puyo Clone
+`puyopuyo/index.html` をブラウザで開くと、シンプルなぷよぷよ風ゲームを遊べます。
+矢印キーで操作してください。
