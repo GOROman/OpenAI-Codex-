@@ -11,3 +11,12 @@ OpenAIのCodexを試したいリポジトリ。サンプルプログラムでは
 ## Puyo Puyo Clone
 `puyopuyo/index.html` をブラウザで開くと、シンプルなぷよぷよ風ゲームを遊べます。
 矢印キーで操作してください。
+
+## Hなじゃんけん Game
+`h_janken.c` はちょっと不良っぽいノリのじゃんけんゲームです。コンパイルして実行すると、
+大人向けの台詞と共に勝敗が表示されます。
+
+```bash
+gcc -std=c11 -Wall -Wextra -o h_janken h_janken.c
+./h_janken
+```
