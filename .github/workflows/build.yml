@@ -1,0 +1,22 @@
+name: Build C Programs
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Install build essentials
+        run: sudo apt-get update && sudo apt-get install -y build-essential
+      - name: Compile all C files
+        run: |
+          set -euxo pipefail
+          for file in *.c; do
+            echo "Compiling $file";
+            gcc -std=c11 -Wall -Wextra -Werror "$file" -o "$(basename "$file" .c)";
+          done
+
