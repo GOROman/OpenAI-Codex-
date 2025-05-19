@@ -28,3 +28,7 @@ $ ./rebel_game
 gcc -std=c11 -Wall -Wextra -o h_janken h_janken.c
 ./h_janken
 ```
+
+## 崩撃雲身双虎掌 Training
+`akira_spod/index.html` をブラウザで開くと、アキラの必殺技「崩撃雲身双虎掌」を練習できます。
+指示に従って矢印キーと P・G キーを押し、コンボを決めましょう。
